@@ -1,2 +1,2 @@
 # kicad-lib
-Symbol and Footprint Library
+Symbol, Footprint, 3DModel, and Template Library
