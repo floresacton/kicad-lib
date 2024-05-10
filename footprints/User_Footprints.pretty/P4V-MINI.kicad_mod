@@ -1,0 +1,224 @@
+(footprint "P4V-MINI"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.762 -2.032 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d554af34-b205-4655-8122-8025b8b096e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "P4V-MINI"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "81cb0ddb-f895-4494-8972-1b733a8c99a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "P4V-MINI"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e290c44e-9fde-43ec-beed-c154324e4ff1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.com/en/products/detail/amphenol-all-sensors-corporation/5-INCH-G-P4V-MINI/502214"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90ee143e-541f-46e5-83e5-2c079d05c39d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Differential Pressure Sensor"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f143532d-0a15-49d2-9e68-90598a0cecb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 -1.27)
+		(end 8.89 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d2af66b5-ed9a-4aaa-ba60-0b3f31742b1e")
+	)
+	(fp_line
+		(start -1.27 -0.762)
+		(end -1.016 -0.762)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75e7d922-563b-4d5e-8aa8-5837dd26a3f1")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72d6edcd-56d9-40cf-9ac2-9ea09c9ff78a")
+	)
+	(fp_line
+		(start -1.016 -0.762)
+		(end -1.016 0.762)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "55aca13d-3e30-4890-9c47-394a91572068")
+	)
+	(fp_line
+		(start -1.016 0.762)
+		(end -1.27 0.762)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74b328da-3184-4637-98a8-a6c2dde0d87b")
+	)
+	(fp_line
+		(start 8.89 -1.27)
+		(end 8.89 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "daca4d84-51f7-4a0f-be98-8c0236422406")
+	)
+	(fp_line
+		(start 8.89 1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c53290f1-db55-475a-9bfd-b1deba3ed0eb")
+	)
+	(fp_line
+		(start -1.397 -1.397)
+		(end 9.017 -1.397)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "11fec700-35f8-43e3-801e-1c11cd40f057")
+	)
+	(fp_line
+		(start -1.397 1.397)
+		(end -1.397 -1.397)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "626237cf-5561-4b0d-8c4a-2ecb0e466e7f")
+	)
+	(fp_line
+		(start 9.017 -1.397)
+		(end 9.017 1.397)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "93544ecf-4f5b-493c-b5b9-4cb201d4b0b7")
+	)
+	(fp_line
+		(start 9.017 1.397)
+		(end -1.397 1.397)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "653197e7-03ac-4c3f-bd28-035aa5633081")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ea97f6b1-0312-4aac-ac13-4fbe22095542")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "041ffafe-4c1e-4342-b81f-a33ad2608e9d")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7182aaf3-3844-435c-8c5f-e5aff70b3c3a")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2aea6f63-98d1-47af-b4e9-20a913a04b36")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0c2f9e5-a134-4520-991d-bab2e9ff9b76")
+	)
+)
