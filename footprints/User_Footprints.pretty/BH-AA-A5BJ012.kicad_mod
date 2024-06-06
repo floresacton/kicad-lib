@@ -1,0 +1,171 @@
+(footprint "BH-AA-A5BJ012"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -27.5 -9.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fac201e6-54db-436d-87ac-12d22f10a129")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "BH-AA-A5BJ012"
+		(at 0 -0.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6554f82e-1e12-437c-ab6b-b3cc5041621c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f249f006-3d39-4e19-bb50-9817e4b951f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2211291730_MYOUNG-BH-AA-A5BJ012_C5290180.pdf"
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f15505db-4cc3-4dd0-8c65-416165dac9eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "AA Battery Holder"
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da7a564e-a922-4b4a-8a74-32e241b679f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -30 -8.5)
+		(end -30 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "33a09a39-3e2b-44a1-98ce-5e18730d8ba7")
+	)
+	(fp_line
+		(start -30 -8.5)
+		(end 30 -8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a7daade-df87-423d-85e7-fe71336a9055")
+	)
+	(fp_line
+		(start -30 8.5)
+		(end 30 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "052deab2-c15b-4dc6-a356-c967348a98f4")
+	)
+	(fp_line
+		(start 30 -8.5)
+		(end 30 8.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "07a96ec2-6c9a-4401-a9da-5f1f57f26bbb")
+	)
+	(fp_circle
+		(center -27.65 -7.1)
+		(end -26.65 -7.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "cab5a616-acea-46fa-908d-07f396d74bb2")
+	)
+	(fp_circle
+		(center -20.5 0)
+		(end -18.8 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "5fda1557-7c0c-46d4-bdba-3fa1e8cf0e92")
+	)
+	(fp_circle
+		(center 20.5 0)
+		(end 22.2 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "9a8d5f56-ee35-4a31-aa76-ede2fa4754a5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "998ff939-3b8e-426f-b563-5c8decf429ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -27.65 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1a87e780-cfcc-4e29-a78d-0cc6846a63e4")
+	)
+	(pad "2" thru_hole circle
+		(at 27.65 0)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fe5a28d3-b4d8-4785-b140-37753d4e35dd")
+	)
+)
