@@ -66,7 +66,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_text user "${REFERENCE}"
 		(at 0 -4 0)
 		(unlocked yes)
@@ -83,9 +83,9 @@
 		(at 0 0)
 		(size 6.2 6.2)
 		(drill 4.2)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers yes)
-		(keep_end_layers yes)
+		(keep_end_layers no)
 		(uuid "b7ce6ee8-f30d-4d7d-b67d-a766acb78cac")
 	)
 	(model "${USER_3DMODEL_DIR}/24939.STEP"
