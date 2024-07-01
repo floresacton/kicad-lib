@@ -1,0 +1,203 @@
+(footprint "CR1220"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Coin Cell Battery Holder")
+	(property "Reference" "REF**"
+		(at 3.9624 9.144 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0ecc233a-a9c8-4a22-a34d-f685a6848a7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CR1220"
+		(at 0.3048 -12.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "703c84d6-b642-4b86-91d3-885ca750f94e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.3048 -13.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75927386-dc67-4a72-bc42-55e45c323e7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2405081637_Q-J-CR1220-2_C70381.pdf"
+		(at 0.3048 -13.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e34d1a16-dd73-42b9-8a72-80cf8d02a762")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.3048 -13.47 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e500990-528c-4b55-a46b-3551b4a9b0a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.581783 7.941535)
+		(end -7.581783 4.641535)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "965f6bd0-039d-41ca-8a6c-244d2e1c71c8")
+	)
+	(fp_line
+		(start -6.626708 4.645901)
+		(end -7.581783 4.641535)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76891ece-dd6d-47df-a5c6-8ffba72c1f83")
+	)
+	(fp_line
+		(start -1.9 7.925999)
+		(end -7.581783 7.941535)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "85ea70cb-ac99-4b0b-8938-f2263b386052")
+	)
+	(fp_line
+		(start 2.218217 7.841536)
+		(end 7.9 7.826)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "38435631-81af-45db-9363-d7987e884b32")
+	)
+	(fp_line
+		(start 7.9 4.526)
+		(end 6.7 4.526)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7cb73cb-c1cd-4ee2-a223-9aa6715c5a45")
+	)
+	(fp_line
+		(start 7.9 7.826)
+		(end 7.9 4.526)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72fc598e-afb9-41c3-9501-ce7e19401440")
+	)
+	(fp_arc
+		(start -1.9 7.925999)
+		(mid -8.028038 0.150253)
+		(end -1.947094 -7.662377)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0c1d1c19-f359-477b-ae06-38110ed9a570")
+	)
+	(fp_arc
+		(start 1.9 -7.673999)
+		(mid 8.026387 -0.038618)
+		(end 2.218217 7.841536)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e2273e5d-45f5-4b0b-9902-b9fa87a71ed1")
+	)
+	(fp_circle
+		(center 0 -3.473999)
+		(end 0.8 -3.474)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "e3de771d-aaf2-4d5a-8893-af2694b6651b")
+	)
+	(fp_circle
+		(center 0 4.025999)
+		(end 0.8 4.026)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f885ae11-c276-4cba-a649-807b1bc9a1b7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -10.774 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d4ea90d-9098-48fa-80d3-5c1d55afbcd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 8.126)
+		(size 2.3 4.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "88a4eae8-14ec-4941-82b2-836ca28c9112")
+	)
+	(pad "2" smd roundrect
+		(at 0 -7.874)
+		(size 2.3 4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "30237c00-05f1-4371-9092-ee1ad1ef21c7")
+	)
+)
