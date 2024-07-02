@@ -200,4 +200,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "30237c00-05f1-4371-9092-ee1ad1ef21c7")
 	)
+	(model "${USER_3DMODEL_DIR}/CR1220.step"
+		(offset
+			(xyz 1.2 0 2.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
 )
