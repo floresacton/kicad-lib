@@ -1,10 +1,10 @@
-(footprint "TerminalPlug_6P_P5.08"
+(footprint "ScrewTerminalPlug_6P_P5.08"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.034054 -16.226593 0)
+		(at 0 -18.034 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "0f943a84-78ca-47ef-974b-e79f538bdc34")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "TerminalPlug_6P_P5.08"
+	(property "Value" "ScrewTerminalPlug_6P_P5.08"
 		(at -5.740123 0.034368 90)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.032 -14.986)
-		(end -2.032 14.986)
+		(start -2.032 -16.002)
+		(end -2.032 16.002)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -78,8 +78,8 @@
 		(uuid "db6e024e-d1b9-4c24-87ec-b6ec6335b703")
 	)
 	(fp_line
-		(start -2.032 -14.986)
-		(end 4.318 -14.986)
+		(start -2.032 -16.002)
+		(end 3.683 -16.002)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -88,8 +88,8 @@
 		(uuid "efc126b1-aba7-4ceb-8b80-5ef7696c099b")
 	)
 	(fp_line
-		(start -2.032 14.986)
-		(end 4.318 14.986)
+		(start -2.032 16.002)
+		(end 3.683 16.002)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -98,8 +98,8 @@
 		(uuid "2323ca6c-041a-422e-b63c-91a2fef3d21d")
 	)
 	(fp_line
-		(start 4.572 -14.986)
-		(end 4.572 14.986)
+		(start 3.937 -15.748)
+		(end 3.937 15.748)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -108,8 +108,8 @@
 		(uuid "14500582-d735-4077-8f2d-c6d3a425d6d5")
 	)
 	(fp_line
-		(start -2.286 15.24)
-		(end -2.286 -15.24)
+		(start -2.159 16.129)
+		(end -2.159 -16.129)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -118,8 +118,8 @@
 		(uuid "cf3ff926-0a19-4437-a5fc-dad10d9d27f4")
 	)
 	(fp_line
-		(start -2.286 15.24)
-		(end 4.826 15.24)
+		(start -2.159 16.129)
+		(end 4.064 16.129)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -128,8 +128,8 @@
 		(uuid "94e5284e-00d5-4e52-9532-81489448872b")
 	)
 	(fp_line
-		(start 4.826 -15.24)
-		(end -2.286 -15.24)
+		(start 4.064 -16.129)
+		(end -2.159 -16.129)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -138,8 +138,8 @@
 		(uuid "5012e275-09f9-461c-9059-204be8c7f421")
 	)
 	(fp_line
-		(start 4.826 -15.24)
-		(end 4.826 15.24)
+		(start 4.064 -16.129)
+		(end 4.064 16.129)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -148,8 +148,8 @@
 		(uuid "45d59189-efee-42f1-a30f-b69ec24f57be")
 	)
 	(fp_line
-		(start -1.788 -15.2)
-		(end -1.788 15.2)
+		(start -1.788 -15.748)
+		(end -1.788 15.748)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -158,8 +158,8 @@
 		(uuid "29dff9e6-9c26-4e97-bf79-99b054b32911")
 	)
 	(fp_line
-		(start -1.778 15.2)
-		(end 4.512 15.2)
+		(start -1.778 15.748)
+		(end 3.81 15.748)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,8 +168,8 @@
 		(uuid "5714a142-808f-405a-ada0-edbab3a0e0c9")
 	)
 	(fp_line
-		(start 4.512 -15.2)
-		(end -1.778 -15.2)
+		(start 3.81 -15.748)
+		(end -1.778 -15.748)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,8 +178,8 @@
 		(uuid "87db6f4d-48ad-4908-888a-3e795daa8d9b")
 	)
 	(fp_line
-		(start 4.512 15.2)
-		(end 4.512 -15.2)
+		(start 3.81 15.748)
+		(end 3.81 -15.748)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -188,7 +188,7 @@
 		(uuid "0c885a5f-38bd-4113-929e-e0cbcaa38e82")
 	)
 	(fp_text user "Board Edge"
-		(at 4.318 4.318 90)
+		(at 3.429 4.318 90)
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "7cfa3f74-8beb-47f4-acd7-74599a6f25cc")
@@ -259,5 +259,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d4f1d076-9fe4-424d-8375-f30f2390a499")
+	)
+	(model "${USER_3DMODEL_DIR}/screwterminalpug_6P_P5.08.step"
+		(offset
+			(xyz 10.2 0 3.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 90)
+		)
 	)
 )
