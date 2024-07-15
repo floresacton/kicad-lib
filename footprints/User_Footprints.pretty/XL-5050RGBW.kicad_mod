@@ -1,0 +1,248 @@
+(footprint "XL-5050RGBW"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RGBW LED")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "61a4c144-9b5d-4a30-bd47-10e9f8da8851")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XL-5050RGBW"
+		(at -1.397 -6.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b5c5b18f-4378-4bd0-83da-c1307c09d10b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9effa0e5-7da2-4c6c-8515-c4ad46618683")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402181502_XINGLIGHT-XL-5050RGBW_C7371891.pdf"
+		(at -1.397 -7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "846f3446-6bdf-4e19-ba2e-c3882df3d492")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1434ab59-e98e-42c5-890c-fcc26de9be84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.85 -2.75)
+		(end -2.6 -3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc1b8e79-1ead-40dd-bdff-2eda600dc8f8")
+	)
+	(fp_line
+		(start -2.85 -2.75)
+		(end -2.6 -2.75)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7364131a-d36f-44de-9f49-6c2591ef872d")
+	)
+	(fp_line
+		(start -2.6 -2.75)
+		(end -2.6 -3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "79c8d0da-49b6-4f76-af96-87132bfd6866")
+	)
+	(fp_line
+		(start -1 -2.5)
+		(end 1 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c4e33608-3472-4795-be44-b8c72c90b30e")
+	)
+	(fp_line
+		(start -1 2.5)
+		(end 1 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e95cbb2d-f25c-4ec1-b987-e8b8bedb404e")
+	)
+	(fp_line
+		(start -3 -2.75)
+		(end 3 -2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f05be08-4791-41e6-9428-91e73443f691")
+	)
+	(fp_line
+		(start -3 2.75)
+		(end -3 -2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a57f6ec9-394f-485a-b4e6-30fd83b10603")
+	)
+	(fp_line
+		(start -3 2.75)
+		(end 3 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ae3186b-672d-424c-8db3-264cefcf5066")
+	)
+	(fp_line
+		(start 3 -2.75)
+		(end 3 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecbd8df2-5025-43a5-97f3-ca944e40c026")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.397 -5.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ad5e5e9d-19cc-4deb-b918-a3bbd2f5834a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.14 -2)
+		(size 1.28 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8381b71f-421d-4003-a0c5-0035598afdd2")
+	)
+	(pad "2" smd roundrect
+		(at -2.14 -0.68)
+		(size 1.28 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "28b0bf5c-7a48-479b-84af-69bc5d5bbe2d")
+	)
+	(pad "3" smd roundrect
+		(at -2.14 0.64)
+		(size 1.28 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "cc7225d1-8b10-459c-bf58-f04c57d5895e")
+	)
+	(pad "4" smd roundrect
+		(at -2.14 1.96)
+		(size 1.28 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a20504d1-d637-4f43-9a4f-64001a14aa01")
+	)
+	(pad "5" smd roundrect
+		(at 2.14 1.96)
+		(size 1.28 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "2e1e85fe-80ca-4a22-a225-b824cccf31e8")
+	)
+	(pad "6" smd roundrect
+		(at 2.14 0.64)
+		(size 1.28 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e9ad44e7-12c0-4c1d-ab47-65accf81658d")
+	)
+	(pad "7" smd roundrect
+		(at 2.14 -0.68)
+		(size 1.28 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d420de29-7cb6-47b9-845f-a87149c49538")
+	)
+	(pad "8" smd roundrect
+		(at 2.14 -2)
+		(size 1.28 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "1d7f0440-1c18-4f6d-8e21-85ee94cb6260")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_5050-6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
