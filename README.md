@@ -2,6 +2,9 @@
 Symbol, Footprint, 3DModel, and Template Library
 
 ## Usage
+### Editing KiCad Paths
+KiCad paths can be edited in Prefrences > Configure Paths
+
 ### Symbols
 Either:
 1. Add kicad-lib/symbols folder to project symbols
