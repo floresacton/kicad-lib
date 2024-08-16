@@ -82,7 +82,7 @@
 	(pad "MP" thru_hole circle
 		(at 0 0)
 		(size 6.2 6.2)
-		(drill 4.2)
+		(drill 4)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers yes)
 		(keep_end_layers no)
