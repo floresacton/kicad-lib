@@ -171,4 +171,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "4e653429-0838-4864-b12d-cac1c733c517")
 	)
+	(model "${USER_3DMODEL_DIR}/Crystal_1612.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
