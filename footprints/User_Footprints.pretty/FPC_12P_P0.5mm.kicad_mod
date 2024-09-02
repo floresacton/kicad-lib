@@ -1,0 +1,232 @@
+(footprint "FPC_12P_P0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.25 3.25 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "059e2410-0e87-416b-a088-edf219e88e50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FPC_12P_P0.5mm"
+		(at -2.45 -2.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "509c2fab-359b-436b-93f7-dbf0e2fe4a6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -2.1 -6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4e548b4-5331-4929-846f-abb36facbe74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.1 -6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b908481c-a22a-4df9-8515-bf5ed1514880")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.1 -6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "296e803a-ad2f-4e30-93c8-213c627aedd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 0)
+		(end -6 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "b288efea-7996-4518-8f8a-a3991d2486d4")
+	)
+	(fp_line
+		(start -6 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "f6514d9f-0cd1-46c2-b16e-281352a0fdce")
+	)
+	(fp_line
+		(start -6 6.5)
+		(end 0 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "27cda8f1-d3f8-43aa-aece-da6622d4ec57")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "79cf4846-b303-4462-a25f-136c6b2d3480")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.6 -1.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cdb7424e-8bab-49e1-94ef-020d0beff08f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Total Thickness: 0.31mm"
+		(at -11.6 9.65 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "829b10f6-f3c3-4120-b8fb-ee2448c90099")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Stiffener: Polymide 0.2mm"
+		(at -12.4 8.25 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "c519d75a-3745-4697-b3ac-2b49fb73506b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" connect roundrect
+		(at -1.6 0.5)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "568bdc45-0da0-4850-8775-13c727b6f71b")
+	)
+	(pad "2" connect roundrect
+		(at -1.6 1)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e7e8e9ac-fa72-4969-b06d-1489d1828112")
+	)
+	(pad "3" connect roundrect
+		(at -1.6 1.5)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c1ae6118-8c91-4860-a3e8-e6da80f5b773")
+	)
+	(pad "4" connect roundrect
+		(at -1.6 2)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "10aae830-91eb-4d1b-bf37-572282df47a6")
+	)
+	(pad "5" connect roundrect
+		(at -1.6 2.5)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "50d47772-2061-4d29-bb4c-7246953a8a10")
+	)
+	(pad "6" connect roundrect
+		(at -1.6 3)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "adae5baa-fca2-4a8a-863b-c288f5885738")
+	)
+	(pad "7" connect roundrect
+		(at -1.6 3.5)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ac884b2e-b950-4a1c-a321-2e2fb54b6477")
+	)
+	(pad "8" connect roundrect
+		(at -1.6 4)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "64f41b30-1c51-4239-90fe-7747dbd73932")
+	)
+	(pad "9" connect roundrect
+		(at -1.6 4.5)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "526e6608-42f4-4911-a113-434f990874c7")
+	)
+	(pad "10" connect roundrect
+		(at -1.6 5)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "408c93cd-b467-47d4-b040-0deae179459c")
+	)
+	(pad "11" connect roundrect
+		(at -1.6 5.5)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "aac0c078-3a02-4713-867d-f492d66d87a8")
+	)
+	(pad "12" connect roundrect
+		(at -1.6 6)
+		(size 3.2 0.3)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c913c35c-8099-49e6-97f0-932dd7240592")
+	)
+)
