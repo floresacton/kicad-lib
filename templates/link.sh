@@ -26,8 +26,3 @@ for file in "${files[@]}"; do
     link "../.base/$file" "$name/$file"
 done
 
-files=("kicad_pro" "kicad_sch" "kicad_prl")
-for file in "${files[@]}"; do
-    link "../.base/base.$file" "$name/$name.$file"
-done
-
