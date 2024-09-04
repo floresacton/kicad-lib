@@ -23,11 +23,11 @@ link() {
 
 files=(".gitignore" "sym-lib-table" "fp-lib-table" "fabrication-toolkit-options.json")
 for file in "${files[@]}"; do
-    link "../base/$file" "$name/$file"
+    link "../.base/$file" "$name/$file"
 done
 
 files=("kicad_pro" "kicad_sch" "kicad_prl")
 for file in "${files[@]}"; do
-    link "../base/base.$file" "$name/$name.$file"
+    link "../.base/base.$file" "$name/$name.$file"
 done
 
