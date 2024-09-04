@@ -21,4 +21,5 @@ Optionally add kicad-lib/footprints as kicad path variable
 Optionally add kicad-lib/3dmodels as kicad path variable
 ### Templates
 Change KICAD_USER_TEMPLATE_DIR variable to kicad-lib/templates
+Use link.bash to link files from base template
 
