@@ -1,3 +1,4 @@
 ### KiCad Lib ###
 *.bak
 *-backups/
+fp-info-cache
