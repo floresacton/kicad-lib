@@ -514,4 +514,15 @@
 		(remove_unused_layers no)
 		(uuid "9ec49a9a-4a34-448e-accf-f930519ad991")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_2466_1xAAA.step"
+		(offset
+			(xyz -0.1 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
