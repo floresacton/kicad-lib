@@ -5,10 +5,12 @@ Symbol, Footprint, 3DModel, and Template Library
 ### Editing KiCad Paths
 KiCad paths can be edited in Prefrences > Configure Paths
 
-```KICAD_USER_TEMPLATE_DIR .../kicad-lib/templates
+```
+KICAD_USER_TEMPLATE_DIR .../kicad-lib/templates
 USER_3DMODEL_DIR .../kicad-lib/3dmodels
 USER_FOOTPRINT_DIR .../kicad-lib/footprints
-USER_SYMBOL_DIR .../kicad-lib/symbols```
+USER_SYMBOL_DIR .../kicad-lib/symbols
+```
 
 ### Symbols
 Either:
