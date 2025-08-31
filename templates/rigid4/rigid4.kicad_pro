@@ -616,7 +616,7 @@
     "netclass_patterns": [
       {
         "netclass": "Ground",
-        "pattern": "(GND|VSS)"
+        "pattern": "(GND|VSS|0)"
       },
       {
         "netclass": "Power",
