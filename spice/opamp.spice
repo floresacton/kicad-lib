@@ -1,0 +1,16 @@
+* Single-pole op-amp with rail limiting
+VS   1 0 AC 1 PWL(0US 0V 0.01US 1V)
+XOP  1 0 3 OPAMP1
+RL   3 0 1K
+
+.SUBCKT OPAMP1 1 2 6
+RIN    1 2 100MEG
+* DC gain = 100k, pole = 100 Hz (unity-gain = 10 MHz)
+EGAIN  3 0 1 2 100K
+RP1    3 4 1
+CP1    4 0 1.5915nF
+* Output buffer with rail limiting
+* TABLE limits output between -3V and +3V
+EBUF   5 0 VALUE = { LIMIT(V(4), 0, 5) }
+ROUT   5 6 10
+.ENDS
