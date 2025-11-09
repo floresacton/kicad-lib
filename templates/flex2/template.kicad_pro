@@ -482,7 +482,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rigid4.kicad_pro",
+    "filename": "template.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -765,7 +765,7 @@
   },
   "sheets": [
     [
-      "38b0a34b-2047-47f6-90d7-ccdf77e8e212",
+      "b91428f0-b0b0-40b6-a29d-063fba957930",
       "Root"
     ]
   ],
